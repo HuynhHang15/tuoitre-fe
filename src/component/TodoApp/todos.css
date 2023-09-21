@@ -1,0 +1,75 @@
+.todo-app {
+  max-width: 800px;
+  width: 100%;
+  height: 90vh;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  background: #f8f9fb;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.todo-app-header {
+  background: #ffffff;
+  padding: 16px 24px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.todo-app-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 0;
+}
+
+.todo-app-title-content-total{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.todo-app-title-content {
+  font-size: 30px;
+  margin: 0;
+}
+
+.todo-app-title-total{
+  color: #8f8f8f;
+}
+
+.todo-app-filterbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.todo-app-filterbar-search{
+    flex: 1;
+}
+
+.todo-app-filterbar-sort,
+.todo-app-filterbar-filter{
+    width: 100px;
+}
+
+.ant-btn-primary {
+  background-color: #605bfd;
+  font-size: 16px;
+  height: 100% !important;
+  box-shadow: 0px 5px 10px 0px #605bfdb6;
+}
+.ant-btn-default:hover {
+  border-color: #605bfd !important;
+  color: #605bfd !important;
+}
+
+.ant-modal-content {
+  height: auto;
+  max-height: 90vh;
+  overflow-y: auto;
+}

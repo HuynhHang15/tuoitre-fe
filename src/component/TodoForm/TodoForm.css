@@ -1,0 +1,47 @@
+.todo-form {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.title-checkbox{
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.todo-list-input {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.date-time-input{
+    flex-grow: 1;
+    display: flex;
+    gap: 8px;
+}
+
+.todo-list-button {
+    flex-shrink: 0;
+}
+
+.todo-list-search {
+    width: 200px;
+    margin-right: 8px;
+}
+
+.todo-list-sort,
+.todo-list-filter {
+    width: 150px;
+    margin-right: 8px;
+}
+
+.ant-upload-text{
+    color: #bfbfbf !important;
+}
