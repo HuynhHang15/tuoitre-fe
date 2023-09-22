@@ -31,7 +31,6 @@ const TodoView = ({ viewTodo, showViewTodo }) => {
     showViewTodo(false);
   };
 
-  console.log(todo.fileList);
 
   /////////////////VIEW FILE////////////////
   const [isView, setIsView] = useState(false);
